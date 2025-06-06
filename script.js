@@ -24,7 +24,7 @@
       finalArray.forEach((e, i) => {
         str =
           str +
-          `<img class="image${i}" onclick="handleSelect(event)"  src=${e} alt="">`;
+          `<img class="img${i}" onclick="handleSelect(event)"  src=${e} alt="">`;
       });
       images.innerHTML = str;
       //   console.log(finalArray);
